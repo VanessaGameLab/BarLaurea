@@ -1,0 +1,53 @@
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/tr_blue"
+    android:gravity="center_horizontal"
+    tools:context=".ButtonsActivity" >
+
+
+    <Button
+        android:id="@+id/localButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/urlButton"
+        android:layout_alignRight="@+id/urlButton"
+        android:layout_below="@+id/urlButton"
+        android:layout_marginTop="20dp"
+        android:background="@color/blue"
+        android:text="Cofe Menu" />
+
+        <Button
+            android:id="@+id/urlButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="40dp"
+            android:background="@color/blue"
+            android:text="Lunch Menu" />
+
+        <Button
+            android:id="@+id/contactButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/localButton"
+            android:layout_marginTop="108dp"
+            android:background="@color/blue"
+            android:text="Contact Info" />
+
+        <Button
+            android:id="@+id/stampButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/contactButton"
+            android:layout_alignParentLeft="true"
+            android:layout_marginBottom="74dp"
+            android:background="@color/blue"
+            android:text="Stamp Card" />
+
+</RelativeLayout>
